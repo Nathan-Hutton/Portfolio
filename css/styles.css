@@ -130,12 +130,12 @@ hr {
 .C-logo {
   width: 25%;
   margin-right: 30px;
-  float: right;
+  float: left;
 }
 
 .HTML-logo {
   width: 28%;
-  float: left;
+  float: right;
   position: relative;
   bottom: 20px;
 }
