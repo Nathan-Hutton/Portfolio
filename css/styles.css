@@ -3,31 +3,35 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', sans-serif;
-  color: #40514E;
   line-height: 2;
+  background-color: #111111;
+  color: #FFFFFF;
 }
 
 .top {
   position: relative;
   width: 100%;
+  object-fit: cover;
 }
 
 .Name {
   position: absolute;
-  top: 200px;
+  top: 100px;
   left: 0;
   width: 100%;
 }
 
 .Title {
   position: absolute;
-  top: 350px;
+  font-size: 2.5rem;
+  top: 250px;
   left: 0;
   width: 100%;
+  color: #000000;
 }
 
-.forest {
-  width: 110%;
+.belize {
+  width: 100%;
 }
 
 h1 {
@@ -38,9 +42,9 @@ h1 {
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 7.5rem;
   font-weight: normal;
-  color: #000000;
+  color: #FFFFFF;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -54,6 +58,7 @@ h3 {
 .opening-description {
   width: 30%;
   margin: auto;
+  color: #FFFFFF;
 }
 
 hr {
@@ -64,19 +69,6 @@ hr {
   width: 5%;
 }
 
-.first_cloud {
-  display: block;
-  position: absolute;
-  top: 50px;
-  right: 200px;
-}
-.second_cloud {
-  display: block;
-  position: absolute;
-  top: 360px;
-  left: 300px;
-}
-
 .container {
   width: 600px;
   height: 600px;
@@ -84,8 +76,8 @@ hr {
 }
 
 .profile_picture {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
 }
 
 .skill-row {
@@ -93,6 +85,7 @@ hr {
   margin: 150px auto;
   text-align: left;
   line-height: 2;
+  color: #FFFFFF;
 }
 
 .Java-logo {
@@ -138,10 +131,6 @@ hr {
   float: right;
   position: relative;
   bottom: 20px;
-}
-
-a {
-  color: #11999E;
 }
 
 .learning {
