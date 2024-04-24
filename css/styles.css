@@ -8,6 +8,15 @@ body {
   color: #FFFFFF;
 }
 
+ul {
+    list-style-type: circle;
+}
+
+video {
+    width: 60%;
+    height: auto;
+}
+
 .top {
   position: relative;
   width: 100%;
@@ -79,18 +88,18 @@ hr {
 }
 
 /* Intro */
-.solar-system-intro {
+.project-intro {
     display: flex;
     align-items: center;
 }
 
-.solar-system-image {
+.project-image {
     width: 40%;
     height: auto;
     margin-left: 5%;
 }
 
-.solar-system-title h2 {
+.project-title h2 {
     margin-left: 10%;
     font-size: 6.5rem;
     color: #c0911b;
@@ -98,7 +107,7 @@ hr {
 }
 
 /* Description and gif*/
-.solar-system-description {
+.project-description {
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -112,12 +121,24 @@ hr {
     text-align: left;
 }
 
-ul {
-    list-style-type: circle;
-}
-
 .orbits-gif {
     width: 100%;
+}
+
+/* Video */
+.solar-system-video {
+    margin-top: 100px;
+}
+
+.solar-system-video h3 {
+    font-size: 3.5rem;
+    margin-bottom: 1%;
+}
+
+.link {
+    font-size: 1.5rem;
+    color: #0092ff;
+    text-decoration: none;
 }
 
 figure {
@@ -143,7 +164,7 @@ button {
 }
 
 .footer-link {
-  color: #11999E;
+  color: #000000;
   margin: 10px 20px;
   text-decoration: none;
 }
