@@ -19,7 +19,7 @@
 <div class="middle-container">
   <div class="profile">
     <img class='profile_picture' src="images/nathan_photo-modified.png" alt="Nathan Profile picture">
-    <p class='opening-description'>I'm currently pursuing a Master's degree in computer graphics at the University of Utah. I'm also a software engineer intern at Idaho National Laboratory in Salt Lake City</p>
+    <p class='opening-description'>I'm currently pursuing a Master's degree in computer graphics at the University of Utah. I'm also a software engineer intern at Idaho National Laboratory in Salt Lake City.</p>
   </div>
   <hr>
   <div class="portfolio">
@@ -33,21 +33,22 @@
             </div>
         </div>
         <div class="project-description">
-            <div class="solar-system-text">
-                <p>I created a solar system with dynamic physics in OpenGL using C++.</p>
+            <div class="project-text">
+                <p>I created a solar system with dynamic physics in OpenGL using C++. OpenGL is a graphics library that lets users create GPU programs called shaders, which are incredibly optimized to run on the GPU and are completely programable, making them very flexible and powerful. </p>
                 <p>Notable features:</p>
                 <ul>
-                    <li>Dynamic orbital physics</li>
-                    <li>Shadow maps</li>
-                    <li>Bloom</li>
-                    <li>Second order numerical integration</li>
-                    <li>control over speed</li>
-                    <li>Blinn-Phong lighting</li>
+                    <li>Dynamic orbital physics with second order numerical integration</li>
                     <li>WASD, mouse, up, down, and roll movement</li>
+                    <li>control over speed of ojbects</li>
+                    <li>Blinn-Phong lighting</li>
+                    <li>Shadow maps</li>
                     <li>Spotlights</li>
                     <li>Skybox</li>
                     <li>Models</li>
+                    <li>Bloom</li>
                 </ul>
+                <p>This project helped me attain a system-level understanding of the computer by working closely with GPU and needing to apply optimizations to maintain a reasonable framerate. I also needed to become very diligent in managing pointers to objects. I needed a very intimate understanding of the concepts and techniques of software design. This vast project required excellent organizational skills, and I needed to employ many fundamental programming concepts to make the project flow smoothly. An example is that I used inheritance extensively in this project since many classes share similar functionality, especially the suns, planets, and models. This project is probably the most I've ever used  OOP concepts.</p>
+                <p>This project was entirely individual, requiring me to find my own resources to continue adding features and learning about OpenGL, which was a great experience and made me much more confident to tackle challenging projects like this in the future. Towards the end of the project, many features and optimizations I faced were niche, such as bloom optimizations, forcing me to find obscure resources that hardly fit my project to get by. This leads to the next learning goal I met: developing effective problem-solving skills. Problem-solving in shaders is exceptionally difficult, requiring me to get creative to find issues since there are no print statements in GLSL. Additionally, since I made this program in C++ and used pointers frequently, I encountered segmentation faults almost constantly, which are incredibly difficult to debug, and this gave me great experience solving complex problems.</p>
             </div>
             <figure>
                 <img class="orbits-gif" src="images/orbitsNoBackground.gif" alt="">
@@ -61,40 +62,60 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-        <a class="link" href="https://github.com/Nathan-Hutton/solar-system">GitHub</a>
+        <div class="link-container">
+            <a class="link" href="https://github.com/Nathan-Hutton/solar-system">GitHub</a>
+        </div>
     </div>
     <hr>
 
     <div class="ray-tracer">
         <div class="project-intro">
-            <img class="project-image" src="images/solarSystemScreenshot.png" alt="">
+            <div class="image-container">
+                <img class="ray-tracer-image" src="images/custom_scene.png" alt="">
+                <img class="ray-tracer-image" src="images/final.png" alt="">
+                <img class="ray-tracer-image" src="images/gourd.png" alt="">
+                <img class="ray-tracer-image" src="images/sphere.png" alt="">
+            </div>
             <div class="project-title">
-                <h2>Solar System</h2>
+                <h2>Ray Tracer</h2>
             </div>
         </div>
         <div class="project-description">
-            <div class="solar-system-text">
-                <p>I created a solar system with dynamic physics in OpenGL using C++.</p>
-                <p>Notable features:</p>
-                <ul>
-                    <li>Dynamic orbital physics</li>
-                    <li>Shadow maps</li>
-                    <li>Bloom</li>
-                    <li>HDR</li>
-                    <li>control over speed</li>
-                    <li>Blinn-Phong lighting</li>
-                    <li>WASD, mouse, up, down, and roll movement</li>
-                    <li>Spotlights</li>
-                    <li>Skybox</li>
-                    <li>Models</li>
-                </ul>
+            <div class="project-text">
+                <p>This project was my first experience with computer graphics. I made this ray tracer using Python and minimal third-party libraries. Some notable features include support for multiple objects, smooth shading, triangle meshes, directional and point lights, Phong Lighting, shadows, and 3D transformations.</p>
+                <p>This project was a significant milestone in my computer science academic career because it was one of the most challenging projects I faced at the time. I was unfamiliar with the mathematics required for this project, which forced me to do my own extensive research to eventually get it working.</p>
+                <p>Goals: This project made great use of object-oriented programming and inheritance, which helped me understand the concepts and techniques of software design. This project was a massive undertaking for me then, which gave me experience working individually on a project. Since the challenges in this program were unique, this project made me better at problem-solving in general, which is great because I did this project in the first semester of my second year. Most of the issues I encountered in this project were visual anomalies with the images, requiring me to be creative with how I would find more information about these issues.</p>
             </div>
             <figure>
-                <img class="orbits-gif" src="images/orbitsNoBackground.gif" alt="">
-                <figcaption>Proof of Concept Orbits Gif</figcaption>
+                <img class="final-ray-tracer-image" src="images/dude.png" alt="">
             </figure>
         </div>
-        <a class="link" href="https://github.com/Nathan-Hutton/Ray-Tracer">GitHub</a>
+        <div class="link-container">
+            <a class="link" href="https://github.com/Nathan-Hutton/Ray-Tracer">GitHub</a>
+        </div>
+    </div>
+    <hr>
+
+    <div class="squibblets">
+        <div class="project-intro">
+            <img class="project-image" src="images/squibblets.png" alt="">
+            <div class="project-title">
+                <h2>Squibblets</h2>
+            </div>
+        </div>
+        <div class="project-description">
+            <div class="project-text">
+                <p>Squibblets is a game me and three other students made in a software engineering class using Unity. We employed agile techniques and each took advantage of our various individual strengths to make a very polished project. Squibblets can be played<a class="footer-link" style="color: #0092ff" href="https://github.com/Nathan-Hutton/Squibblets">here.</a></p>
+                <p>This project was a significant milestone in my computer science academic career because it was one of the most challenging projects I faced at the time. I was unfamiliar with the mathematics required for this project, which forced me to do my own extensive research to eventually get it working.</p>
+                <p>Goals: This project made great use of object-oriented programming and inheritance, which helped me understand the concepts and techniques of software design. This project was a massive undertaking for me then, which gave me experience working individually on a project. Since the challenges in this program were unique, this project made me better at problem-solving in general, which is great because I did this project in the first semester of my second year. Most of the issues I encountered in this project were visual anomalies with the images, requiring me to be creative with how I would find more information about these issues.</p>
+            </div>
+            <figure>
+                <img class="squibblets-final-image" src="images/squibblets-movement.gif" alt="">
+            </figure>
+        </div>
+        <div class="link-container">
+            <a class="link" href="https://github.com/Nathan-Hutton/Squibblets">GitHub</a>
+        </div>
     </div>
 
   </div>
