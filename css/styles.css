@@ -91,7 +91,7 @@ hr {
 /* Intro */
 .project-intro {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .project-image {
@@ -147,10 +147,24 @@ hr {
 }
 
 /* Ray tracer*/
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
 .ray-tracer-image {
-    width: 40%;
+    width: 35%;
     height: auto;
     margin-left: 0%;
+}
+
+.project-title-ray-tracer h2 {
+    margin-left: -90%;
+    font-size: 6.5rem;
+    color: #c0911b;
+    white-space: nowrap; /* Prevents wrapping */
 }
 
 .final-ray-tracer-image {
