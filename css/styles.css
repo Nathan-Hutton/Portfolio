@@ -63,20 +63,19 @@ h3 {
 
 hr {
   clear: both;
-  margin: 50px auto;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   border-color: grey;
   width: 65%;
 }
 
 .profile_picture {
-  height: 400px;
-  width: 400px;
+  height: 30%;
+  width: 30%;
 }
 
 .portfolio h2 {
-  font-size: 9.5rem;
+  font-size: 9.5vw;
   color: #86dcaa;
 }
 
@@ -94,7 +93,7 @@ hr {
 
 .project-title h2 {
     margin-left: 10%;
-    font-size: 6.5rem;
+    font-size: 5vw;
     color: #c0911b;
     white-space: nowrap; /* Prevents wrapping */
 }
@@ -108,9 +107,9 @@ hr {
 
 .project-text {
     margin-left: 5%;
-    font-size: 1.5rem;
+    font-size: 1vw;
     text-align: left;
-    width: 60%;
+    width: 80%;
     display: table-cell;
 }
 
@@ -120,20 +119,20 @@ hr {
 
 /* Video */
 .solar-system-video {
-    margin-top: 100px;
+    margin-top: 2%;
 }
 
 .solar-system-video h3 {
-    font-size: 3.5rem;
+    font-size: 3vw;
     margin-bottom: 1%;
 }
 
 .link-container {
-    margin-top: 100px;
+    margin-top: 1%;
 }
 
 .link {
-    font-size: 3.5rem;
+    font-size: 3vw;
     color: #0092ff;
     text-decoration: none;
 }
@@ -154,7 +153,7 @@ hr {
 
 .project-title-ray-tracer h2 {
     margin-left: -90%;
-    font-size: 6.5rem;
+    font-size: 5vw;
     color: #c0911b;
     white-space: nowrap; /* Prevents wrapping */
 }
