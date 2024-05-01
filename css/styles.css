@@ -25,15 +25,18 @@ video {
 
 .Name {
   position: absolute;
-  top: 100px;
-  left: 0;
+  top: 4%;
   width: 100%;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5vw;
+  color: #000000;
 }
 
 .Title {
+  font-family: 'Montserrat', sans-serif;
   position: absolute;
-  font-size: 2.5rem;
-  top: 250px;
+  font-size: 3.5vw;
+  top: 15%;
   left: 0;
   width: 100%;
   color: #000000;
@@ -43,17 +46,6 @@ video {
   width: 100%;
 }
 
-h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', sans-serif;
-  font-size: 5.6rem;
-  color: #000000;
-}
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5.5rem;
-  color: #FFFFFF;
-}
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
