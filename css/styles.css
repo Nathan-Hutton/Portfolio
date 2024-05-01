@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', sans-serif;
   line-height: 2;
-  background-color: #111111;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -48,11 +48,9 @@ video {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
-}
-
-.middle-container {
-  margin: 100px auto;
+  color: #44CCCF;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .opening-description {
@@ -94,13 +92,12 @@ hr {
 .project-title h2 {
     margin-left: 10%;
     font-size: 5vw;
-    color: #c0911b;
+    color: #f2b33d;
     white-space: nowrap; /* Prevents wrapping */
 }
 
 /* Description and gif*/
 .project-description {
-    margin-top: 100px;
     display: flex;
     align-items: center;
 }
@@ -154,7 +151,7 @@ hr {
 .project-title-ray-tracer h2 {
     margin-left: -90%;
     font-size: 5vw;
-    color: #c0911b;
+    color: #f2b33d;
     white-space: nowrap; /* Prevents wrapping */
 }
 
@@ -175,26 +172,32 @@ figure {
   color: #AAAAAA;
 }
 
+.contact-me h2 {
+    font-size: 6vw;
+    margin-bottom: 0%;
+}
+
 button {
   border: none;
+  margin-top: 2%;
   height: 40px;
   width: 160px;
   background-color: #11999E;
   color: white;
-  font-size: 1.2rem;
+  font-size: 100%;
   border-radius: 8px;
   background-image: linear-gradient(#11999E, #B6EAF2);
 }
 
 .bottom-container {
-  margin-top: 80px;
+  margin-top: 5%;
   padding: 50px 0 30px;
   background-color: #66BFBF;
 }
 
 .footer-link {
   color: #000000;
-  margin: 10px 20px;
+  margin: 5% 5%;
   text-decoration: none;
 }
 
